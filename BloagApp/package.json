@@ -1,0 +1,22 @@
+{
+  "name": "bloagapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "blogapp": "nodemon index.js"
+  },
+  "author": "Pankaj",
+  "license": "ISC",
+  "dependencies": {
+    "dompurify": "^3.0.9",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "jsdom": "^24.0.0",
+    "marked": "^12.0.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.2.2",
+    "slugify": "^1.6.6"
+  }
+}
