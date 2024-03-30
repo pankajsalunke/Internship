@@ -12,6 +12,9 @@ const password = process.env.MONGODB_PASSWORD;
 
 mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.5cfikpj.mongodb.net/BlogAppDB`)
 
+
+
+
 app.use(express.urlencoded({extended:false}))
 app.use(methodoverride('_method'))
 

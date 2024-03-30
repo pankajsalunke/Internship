@@ -1,0 +1,15 @@
+.input-1{
+    padding: 12px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+
+nav {
+  background-color: black;
+  padding: 10px; /* Add some padding to the nav element */
+  display: flex; /* Use flexbox to align the links horizontally */
+  justify-content: space-between; /* Distribute the links evenly in the nav element */
+
+}

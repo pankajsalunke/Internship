@@ -3,9 +3,11 @@ const router = express.Router()
 const Article = require("./../models/article")
 const article = require('./../models/article')
 
+
 router.get("/new",(req,res)=>{
     res.render("articles/new",{article: new Article()})
 })
+
 
 router.get("/edit/:id", async(req,res)=>{
     const article = await Article.findById(req.params.id)
@@ -49,5 +51,6 @@ function saveArticle(path){
     }
 }
 }
- 
+
+
 module.exports = router
